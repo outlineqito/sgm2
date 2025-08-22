@@ -16,20 +16,19 @@ docker_command=(
 
   # Used by Watchtower to know which containers to monitor.
   --label 'com.centurylinklabs.watchtower.enable=true'
-  --label 'com.centurylinklabs.watchtower.scope=outline'
-
+  
   # Use log rotation. See https://docs.docker.com/config/containers/logging/configure/.
   --log-driver local
 
   # The state that is persisted across restarts.
   -v "/opt/outline/persisted-state:/opt/outline/persisted-state"
-
+    
   # Where the container keeps its persistent state.
   -e "SB_STATE_DIR=/opt/outline/persisted-state"
 
   # Port number and path prefix used by the server manager API.
-  -e "SB_API_PORT=2489"
-  -e "SB_API_PREFIX=zbkul-32Mh2lrN_DZdffHw"
+  -e "SB_API_PORT=43768"
+  -e "SB_API_PREFIX=jsMBc25k4RAwfGwz5S5tdw"
 
   # Location of the API TLS certificate and key.
   -e "SB_CERTIFICATE_FILE=/opt/outline/persisted-state/shadowbox-selfsigned.crt"

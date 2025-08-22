@@ -36,10 +36,6 @@ keys:
     port: 37256
     secret: Qgl72UsaL6Bw9Zp9wfxZPp
   - cipher: chacha20-ietf-poly1305
-    id: '9'
-    port: 37256
-    secret: hAfivQE7NnQZxj6RhKCokG
-  - cipher: chacha20-ietf-poly1305
     id: '10'
     port: 37256
     secret: jcpHOJSfHlktw1CRWrRciK
@@ -99,10 +95,6 @@ keys:
     id: '24'
     port: 37256
     secret: PNEpjbJmeTJvvWMrTTdnuI
-  - cipher: chacha20-ietf-poly1305
-    id: '25'
-    port: 37256
-    secret: gcODU1b3F4WsOhbuXHxiLC
   - cipher: chacha20-ietf-poly1305
     id: '26'
     port: 37256
@@ -203,3 +195,7 @@ keys:
     id: '50'
     port: 37256
     secret: n1DmrF0tA2H9qzo9igN3hP
+  - cipher: chacha20-ietf-poly1305
+    id: '51'
+    port: 49019
+    secret: hDczPlYfcu7Efj0zcY4tgw
